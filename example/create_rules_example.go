@@ -16,7 +16,8 @@ func addRules() {
 	rules := twitterstream.NewRuleBuilder().
 		AddRule("cat has:images", "cat tweets with images").
 		AddRule("puppy has:images", "puppy tweets with images").
-		AddRule("lang:en -is:retweet -is:quote (#golangjobs OR #gojobs)", "golang jobs").Build()
+		AddRule("lang:en -is:retweet -is:quote (#golangjobs OR #gojobs)", "golang jobs").
+		Build()
 
 	res, err := api.Rules.Create(rules, false) // dryRun is set to false.
 
