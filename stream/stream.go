@@ -86,6 +86,7 @@ func (s *Stream) StartStream(optionalQueryParams *url.Values) error {
 }
 
 func (s *Stream) streamMessages(res *http.Response) {
+	defer func() { recover() }()
 	defer res.Body.Close()
 	defer close(s.messages)
 
