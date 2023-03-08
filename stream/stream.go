@@ -1,7 +1,7 @@
 package stream
 
 import (
-	"github.com/fallenstedt/twitter-stream/httpclient"
+	"github.com/E0001/twitter-stream/httpclient"
 	"net/http"
 	"net/url"
 )

@@ -1,3 +1,3 @@
-module github.com/fallenstedt/twitter-stream
+module github.com/E0001/twitter-stream
 
 go 1.16

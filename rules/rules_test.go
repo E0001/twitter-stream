@@ -3,7 +3,7 @@ package rules
 import (
 	"bytes"
 	"fmt"
-	"github.com/fallenstedt/twitter-stream/httpclient"
+	"github.com/E0001/twitter-stream/httpclient"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -104,7 +104,6 @@ func TestCreate(t *testing.T) {
 	}
 }
 
-
 func TestDelete(t *testing.T) {
 
 	var tests = []struct {
@@ -198,7 +197,6 @@ func TestDelete(t *testing.T) {
 		})
 	}
 }
-
 
 func TestGetRules(t *testing.T) {
 	var tests = []struct {

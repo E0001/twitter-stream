@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	twitterstream "github.com/fallenstedt/twitter-stream"
-	"github.com/fallenstedt/twitter-stream/stream"
+	twitterstream "github.com/E0001/twitter-stream"
+	"github.com/E0001/twitter-stream/stream"
 	"time"
 )
 

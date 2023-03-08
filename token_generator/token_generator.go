@@ -3,7 +3,7 @@ package token_generator
 import (
 	"encoding/base64"
 	"encoding/json"
-	"github.com/fallenstedt/twitter-stream/httpclient"
+	"github.com/E0001/twitter-stream/httpclient"
 )
 
 type (
@@ -60,7 +60,6 @@ func (a *TokenGenerator) RequestBearerToken() (*RequestBearerTokenResponse, erro
 
 	return data, nil
 }
-
 
 func (a *TokenGenerator) base64EncodeKeys() string {
 	// See Step 1 of encoding consumer key and secret twitter application-only requests here

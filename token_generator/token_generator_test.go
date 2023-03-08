@@ -3,7 +3,7 @@ package token_generator
 import (
 	"bytes"
 	"fmt"
-	"github.com/fallenstedt/twitter-stream/httpclient"
+	"github.com/E0001/twitter-stream/httpclient"
 	"io/ioutil"
 	"net/http"
 	"testing"
